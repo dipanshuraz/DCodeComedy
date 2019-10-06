@@ -130,7 +130,7 @@ void Logic() // The logic of Snake game
 		break;
 
 	}
-	if (x >= width) // Logic for passing through the wall, if X is greater that width, return it to zero, so on
+	if (x >= width) // Logic for passing through the wall, if X is greater that width and return it to zero, so on
 		x = 0;
 	else if (x < 0)
 		x = width - 1;
