@@ -13,7 +13,7 @@ int x, y, fruitX, fruitY, score; // Coordinates of Fruit and Player, Score
 enum eDirection { STOP = 0, LEFT, RIGHT, UP, DOWN}; // Direction, Controls
 eDirection dir;
 
-void Settings() // Used for the overall settings such as player poisition and Fruit Spawn
+void Settings() // Use for the overall setting such as player poisition and Fruit Spawn
 {
 	gameOver = false;
 	dir = STOP;
@@ -28,7 +28,7 @@ void Settings() // Used for the overall settings such as player poisition and Fr
 } 
 
 
-void Visual()  //Part of Visuals, Drawing the arena with for loops
+void Visual()  //Part of Visuals and Drawing the arena with for loops
 {
 	system("cls");  
 	for (int i = 0; i < width+2; i++) // Draw top level of ##############
